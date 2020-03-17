@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: MainScene
   m_EditorClassIdentifier: 
   MaxChars: 50
-  CharsSpawnTimeout: 1
+  CharsSpawnTimeout: 0.5
   MaxBombs: 200
   BombSpawnTimeout: 0.1
   CharacterIds: 0000000001000000
