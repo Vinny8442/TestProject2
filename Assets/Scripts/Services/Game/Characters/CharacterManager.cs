@@ -45,8 +45,8 @@ namespace test.project.Services
 
 		public void Start()
 		{
-			_spawnCoroutine = _eventManager.StartCoroutine(SpawnCoroutine());
 			_container = new GameObject("CharactersContainer").transform;
+			_spawnCoroutine = _eventManager.StartCoroutine(SpawnCoroutine());
 		}
 
 		public void Reset()
